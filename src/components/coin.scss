@@ -1,0 +1,61 @@
+.coinData{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.name {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.price {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.priceChange {
+    width: 190px;
+    margin-left: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.coinVolume {
+    width: 130px;
+    margin-left: 20px;
+}
+
+.button {
+    width: 110px;
+
+    .detail-button {
+        margin-left: 20px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: orange
+    }
+}
